@@ -10,7 +10,7 @@ public class CameraFlow : MonoBehaviour
 
     public void StartFollow()
     {
-      StartCoroutine(FindCameraCentr());  
+      StartCoroutine(FindCameraCentr());     
     }
 
     private void LateUpdate()
